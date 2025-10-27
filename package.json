@@ -1,4 +1,11 @@
 {
+  "name": "ai-resume-builder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm start"
+  },
   "dependencies": {
     "pdfjs-dist": "^4.10.38"
   }
